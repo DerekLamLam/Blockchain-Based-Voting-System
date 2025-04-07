@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed:
 Project Setup
 -------------
 Step 1: Download the Project
-- Download the ZIP file and extract it to a folder
+- Download the ZIP file and extract it to a folder, it cant upload two folder to github: node_modules,test. But there are in the ZIP file.
 
 Step 2: Install Dependencies
 - Open Command Prompt and navigate to the project folder
