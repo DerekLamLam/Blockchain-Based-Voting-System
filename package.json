@@ -1,0 +1,19 @@
+{
+  "name": "voting-dapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "migrate": "truffle migrate --reset",
+    "update-address": "node updateContractAddress.js",
+    "deploy": "npm run migrate && npm run update-address",
+    "server": "node server.js"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
